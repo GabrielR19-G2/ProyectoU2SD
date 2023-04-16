@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @AutoConfiguration
 @ComponentScan(basePackages = ("com.itson.edu.mx.Proyectoud2.controladores"))
+
 public class Proyectoud2Application {
 
 	public static void main(String[] args) {

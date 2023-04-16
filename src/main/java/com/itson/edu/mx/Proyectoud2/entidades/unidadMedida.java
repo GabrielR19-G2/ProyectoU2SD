@@ -48,8 +48,8 @@ public class unidadMedida {
      * 
      * @return total
      */
-    public void setNombre(Double total) {
-        this.total = total;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     /***

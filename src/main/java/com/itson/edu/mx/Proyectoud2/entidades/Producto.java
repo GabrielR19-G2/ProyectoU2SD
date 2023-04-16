@@ -24,6 +24,23 @@ public class Producto {
 
     private String codigo;
 
+    /**
+     * Constructor de la clase producto.java
+     * 
+     * @param nombre
+     * @param marca
+     * @param precio
+     * @param codigo
+     * @param unidadMedida
+     */
+    public Producto(String nombre, String marca, Double precio, String codigo, Integer unidadMedida) {
+        this.nombre = nombre;
+        this.marca = marca;
+        this.precio = precio;
+        this.codigo = codigo;
+        this.unidadMedida = unidadMedida;
+    }
+
     /***
      * Método que regresa el id de la venta
      * 
@@ -63,6 +80,23 @@ public class Producto {
      */
     public String getMarca() {
         return marca;
+    }
+    /***
+     * Método que establece la unidad Medida
+     * 
+     * @return unidadMedida
+     */
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    /***
+     * Método que obtiene la marca
+     * 
+     * @return la marca
+     */
+    public Integer getUnidadMedida() {
+        return unidadMedida;
     }
 
     /***
